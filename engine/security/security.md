@@ -145,7 +145,7 @@ fine-grained access control system. Processes (like web servers) that
 just need to bind on a port below 1024 do not need to run as root: they
 can just be granted the `net_bind_service` capability instead. And there
 are many other capabilities, for almost all the specific areas where root
-privileges are usually needed.
+privileges are usually not needed.
 
 This means a lot for container security; let's see why!
 
