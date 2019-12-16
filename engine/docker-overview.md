@@ -251,7 +251,7 @@ you can limit the memory available to a specific container.
 Union file systems, or UnionFS, are file systems that operate by creating layers,
 making them very lightweight and fast. Docker Engine uses UnionFS to provide
 the building blocks for containers. Docker Engine can use multiple UnionFS variants,
-including AUFS, btrfs, vfs, and DeviceMapper.
+including AUFS, btrfs, and DeviceMapper.
 
 ### Container format
 Docker Engine combines the namespaces, control groups, and UnionFS into a wrapper
